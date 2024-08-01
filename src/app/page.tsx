@@ -1,4 +1,5 @@
-import { Table, ITableColumn } from "@/common/components/table";
+import { Table  } from "@/common/components/table";
+import { ITableColumn } from "@/common/components/table/types";
 
 export default function Home() {
   const gridColumn: ITableColumn[] = [
